@@ -1,7 +1,7 @@
 import time
 
-from page_objects.garage_page import GaragePage, AddCarModal
-from page_objects.home_page import HomePage
+from submodules.test_1.page_objects.garage_page import GaragePage, AddCarModal
+from submodules.test_1.page_objects.home_page import HomePage
 
 
 def test_login_as_guest_user(driver):
